@@ -17,7 +17,6 @@ public class Main {
         System.out.println("");
         Arrays.stream(array).forEach(System.out::print);
         System.out.println("");
-
         //через Стрим
         int[] arr = {5, 2, 6, 7};
         int[] revers = IntStream.range(0, arr.length)
